@@ -1,0 +1,173 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+li {
+  display: inline;
+  margin-right: 15px;
+}
+
+a:hover {
+  color: blue;
+}
+
+body {
+  background-color: #adedbc;
+}
+
+nav {
+  background-color: #8cb9dc;
+}
+
+a:hover {
+  color: #d13a3a;
+}
+
+body {
+  color: #383836;
+}
+
+
+h1 {
+  background-color: aqua
+}
+
+p {
+  background-color: rgb(232, 221, 221);
+}
+
+p {
+  border: 1px solid rgb(125, 209, 160);
+}
+
+
+.water-activity {
+  border: 10px solid rgb(230, 161, 161);
+  border-radius: 10px;
+
+}
+
+.rope-activity {
+  border: 10px solid rgb(135, 220, 141);
+  border-radius: 10px;
+
+}
+
+.centre-info {
+  border: 16px solid rgb(205, 128, 128);
+  boder-radius: 10px;
+
+}
+
+.land-activity {
+  border: 16px solid rgb(173, 95, 95);
+  boder-radius: 10px;
+
+}
+
+.highlight {
+  border: 16px solid rgb(232, 191, 108);
+  border-style: groove;
+}
+
+.water {
+  border: 16px solid rgb(108, 232, 197);
+  border-style: groove;
+}
+
+.rope {
+  border: 16px solid gold;
+  border-style: groove;
+}
+
+.centre {
+  border: 16px solid gold;
+  border-style: groove;
+}
+
+.favourite {
+  border: 8px solid rgb(222, 144, 170);
+  transform: scale(1.1);
+  border-style: dashed
+}
+
+.w1 {
+  border: 8px solid rgb(173, 173, 97);
+  transform: scale(1.1);
+  border-style: dashed;
+}
+
+rope {
+
+  border: 8px solid yellow;
+  transform: scale(1.1);
+  border-style: groove;
+}
+
+.rope1 {
+
+  border: 8px solid rgb(99, 179, 225);
+  transform: scale(1.1);
+  border-style: groove;
+}
+
+.c1 {
+
+  border: 8px solid rgb(99, 179, 225);
+  transform: scale(1.1);
+  border-style: groove;
+}
+
+.slideshow {
+  position: relative;
+  width: 750px;
+  height: 450px;
+  overflow: hidden;
+}
+
+.slideshow img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+.rope-slideshow img {
+  cursor: pointer;
+  z-index: 1;
+}
+
+.rope-slideshow img:hover {
+  cursor: zoom-in;
+}
+
+.water-slideshow img {
+  cursor: pointer;
+  z-index: 1;
+}
+
+.water-slideshow img:hover {
+  cursor: zoom-in;
+}
+
+.staff-flip img {
+  cursor: pointer;
+  transition: transform 0.8s ease;
+  transform-style: preserve-3d;
+}
+
+.staff-flip img.flipped {
+  transform: rotateX(180deg);
+}
+
+.slideshow {
+    border: 5px solid red;
+}

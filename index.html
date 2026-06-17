@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Lochquarru Outdoor Centre</title>
+
+      <link rel="stylesheet" href="css/style.css">
+      <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.4/dist/confetti.browser.min.js"></script>
+      
+    <link rel="stylesheet" href="/data/css/styles.css">
+  </head>
+          
+
+  </html>
+        <img src="images/New Project.png" alt="MenubarHello">
+      
+      <header>
+
+        <h1 style="color: blue;">Lochquarry Outdoor Centre</h1>
+      
+      </header>
+      <nav>
+          <ul>
+              <li><a href="landscape.html">Land based activities</a></li>
+              <li><a href="water.html">Water based activities</a></li>
+              <li><a href="rope.html">Rope based activities</a></li>
+              <li><a href="companytinfo.html">Centre information</a></li>
+              <li><a href="customer.html">Customer comments</a></li>
+          </ul>
+      </nav>
+
+      <footer>
+          <!-- Copyright Symbol: press Alt + 0169 -->
+          <p>© Lochinquarry Outdoor Centre. ALL RIGHTS RESERVED</p>
+      </footer>
+      <script>
+        const confettiButton = document.getElementById("confettiButton");
+
+        confettiButton.addEventListener("click", function () {
+          confetti({
+            particleCount: 120,
+            spread: 80,
+            origin: { y: 0.65 }
+          });
+        });
+    </script>
+  </body>
+
+</html>

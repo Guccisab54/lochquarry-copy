@@ -1,0 +1,102 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+li {
+    display: inline;
+    margin-right: 15px;
+}
+
+a:hover {
+    color: blue;
+}
+
+body {
+    background-color: #adedbc;
+}
+
+nav {
+    background-color: #8cb9dc;
+}
+
+a:hover {
+    color: #d13a3a;
+}
+
+body {
+    color: #383836;
+}
+
+
+h1 {
+    background-color: aqua
+}
+
+p {
+    background-color: rgb(232, 221, 221);
+}
+
+p {
+        border: 1px solid rgb(125, 209, 160);
+}
+
+.index-h1 {
+color: #d13a3a;
+}
+
+.water-activity
+{
+     border: 10px solid wheat; border-radius: 10px;
+}
+.rope-activity
+{
+    border: 10px solid rgb(148, 189, 122); border-radius: 10px;
+}
+
+.Land-Activities
+{
+    border: 10px solid wheat; border-radius: 10px;
+}
+
+.Centre-information {
+    border: 10px solid rgb(125, 216, 170); border-radius: 10px; 
+}
+
+.highlight {
+    border: 8px solid rgb(212, 196, 142);
+    border-style: groove;
+  }
+
+  .titletext
+  {color: rgb(167, 38, 126);}
+
+  .h1rope {
+
+  border: 8px solid rgb(212, 196, 142);
+  border-style: groove;
+}
+
+.h2rope {
+    border: 8px solid rgb(212, 196, 142);
+    border-style: groove;  
+}
+
+.banner{
+background-color: #d13a3a;
+}
+
+.h1centre {
+    border: 8px solid rgb(212, 196, 142);
+    border-style: groove;     
+}
+.favourite {
+    border: 8px salmon;
+    transform: scale(1.1);
+    border-style: dashed;
+
+}
+
+
